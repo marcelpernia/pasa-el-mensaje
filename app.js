@@ -5,4 +5,5 @@ const text = document.querySelector('#text');
 form.onsubmit = function(e) {
   e.preventDefault();
   text.innerHTML = input.value;
+  input.value = '';
 }
