@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.0/css/bulma.min.css">
+  <title>Pasa el mensaje</title>
+</head>
+<body>
+  
+  <div class="columns is-centered px-3">
+
+    <div class="column is-two-fifths is-desktop">
+      <div class="box mt-6">
+        <div class="content">
+          
+          <h3 class="has-text-centered py-4">Algún mensaje que le gustaria pasar</h3>
+          
+            <form id="form">              
+              <div class="field is-grouped">
+                <div class="control is-expanded">
+                  <input class="input" type="text" id="input" required placeholder="Escriba el mensaje" autofocus>
+                </div>
+                <div class="control">
+                  <button class="button is-info">Enviar</button>
+                </div>
+              </div>
+            </form>
+            
+            <div class="section has-text-centered">
+              <h1 class="title is-5">Último mensaje enviado:</h1>
+              <p class="is-size-5 has-text-info" id="text">---</p>
+            </div>
+        
+        </div>
+      </div>
+       
+    </div>
+  </div>
+   <script src="app.js"></script> 
+</body>
+</html>
